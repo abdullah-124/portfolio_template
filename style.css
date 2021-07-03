@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lucida Fax;
+    line-height: 1.4;
+    color: #333;
+    overflow-x: hidden;
+}
+
+
+/*---------------------uti------------*/
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.text-primary {
+    color: #3693ff;
+}
+
+.bg-light {
+    background: #eceff3;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+
+/*--------------navbar------------*/
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #ffffff;
+    padding: 1.5rem 8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 3px solid #3693ff;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar h2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ficon {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #eceff3;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+#navbar li a:hover {
+    background-color: #3693ff;
+}
+
+
+/*------------------showcase Area-----------*/
+
+#showcase {
+    background: url(image/background.jpg) no-repeat center center/cover;
+    height: 87.5vh;
+}
+
+.showcase-contant {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 81px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgb(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+.showcase-contant h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.showcase-contant .btn {
+    font-size: 1.5rem;
+    padding: 1rem 10rem;
+    color: white;
+    transition: color 1s, background 1s;
+}
+
+.showcase-contant .btn:hover {
+    border-radius: 10px;
+    background-color: #3693ff;
+    cursor: alias;
+}
+
+.btn {
+    color: #3693ff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 1px solid #3693ff;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+/*-------------------about-----------*/
+
+#about {
+    padding: 5rem 0;
+}
+
+#about h2,
+#services {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+#about h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#about p.lead {
+    margin-bottom: 1rem;
+}
+
+#about .about-contant {
+    display: flex;
+}
+
+#about .about-text {
+    flex: 2;
+}
+
+#about .about-text {
+    text-align: justify;
+}
+
+.me img {
+    display: block;
+    width: 70%;
+    height: 70%;
+    border-radius: 40%;
+    margin-bottom: 10px;
+}
+
+
+/*------------------section services------------*/
+
+#services {
+    padding: 5rem 0;
+}
+
+#services h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.icon {
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-right: 20px;
+}
+
+.feature {
+    margin: 1rem 3rem;
+}
+
+#services .boxes {
+    display: flex;
+}
+
+#services .box {
+    background: #fff;
+    flex: 1;
+    padding: 3rem;
+    margin: 0 3rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #d1d1d1;
+    font-size: 1.3rem;
+    place-items: center;
+    display: grid;
+}
+
+
+/*---------------tastimaonal----------*/
+
+#testimonial {
+    background: url(image/testimonial-bg.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+
+.testimonial-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.6);
+    padding: 5rem 0;
+}
+
+#testimonial h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: #eceff3;
+}
+
+#testimonial .boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+#testimonial .box {
+    background: rgb(54, 147, 255, 0.7);
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+#testimonial .box img {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+#testimonial p {
+    color: #eceff3;
+}
+
+
+/*---------section Contact--------*/
+
+#contact {
+    padding: 5rem 0;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 8rem;
+}
+
+#contact h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 3rem 0;
+    margin-top: 5rem;
+}
+
+#contact .form-box {
+    background-color: #eceff3;
+    padding: 3rem;
+    align-items: center;
+    box-shadow: 2px 2px 5px #000;
+    border-radius: 10px;
+}
+
+#contact .form-group {
+    margin-bottom: 2rem;
+}
+
+#contact .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 1.1rem;
+}
+
+#contact .form-group input,
+#contact .form-group textarea {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 1.3rem;
+    padding: 1rem;
+    border: 0.5px solid #333;
+    border-radius: 5px;
+}
+
+#contact .form-group textarea {
+    font-family: arial, sans-serif;
+}
+
+#contact .contact-btn {
+    width: 60%;
+    margin-left: 20%;
+    display: inline-block;
+    padding: 1rem 3rem;
+    border: none;
+    font-size: 1.5rem;
+    background: #3693ff;
+    color: #fff;
+    cursor: pointer;
+    transition: background .5s;
+}
+
+#contact .contact-btn:hover {
+    background: #0378ff;
+}
+
+#contact .form-container {
+    position: relative;
+}
+
+#contact .mail-icon {
+    font-size: 4rem;
+    background: #3693ff;
+    display: inline-block;
+    color: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: 50%;
+    position: absolute;
+    top: -100px;
+    left: 45%;
+}
+
+
+/*-----------------------footer-------------------*/
+
+footer {
+    padding: 2.5rem;
+    text-align: center;
+    border-top: 5px solid #3693ff;
+}
