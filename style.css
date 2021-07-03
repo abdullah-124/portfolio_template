@@ -19,8 +19,11 @@ body {
     margin: auto;
 }
 
+
+/* mama style are changed */
+
 .text-primary {
-    color: #3693ff;
+    color: #ff36ff;
 }
 
 .bg-light {
@@ -45,7 +48,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 1;
-    border-bottom: 3px solid #3693ff;
+    border-bottom: 3px solid #5900ff;
 }
 
 #navbar ul {
@@ -116,7 +119,7 @@ body {
 
 .showcase-contant .btn:hover {
     border-radius: 10px;
-    background-color: #3693ff;
+    background-color: #ff00dd;
     cursor: alias;
 }
 
